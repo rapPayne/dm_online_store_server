@@ -32,13 +32,13 @@ app.use('/api/orders', orderRoutes);
 
 // Root endpoint
 app.get('/', (req, res) => {
-  res.json({ 
+  res.json({
     message: 'Welcome to the Online Store API',
     version: '1.0.0',
     endpoints: {
       auth: {
-        login: 'POST /api/login',
-        register: 'POST /api/register'
+        "Log in": 'POST /api/login',
+        Register: 'POST /api/register'
       },
       users: 'GET /api/users (admin only)',
       products: 'GET /api/products',
@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ 
+  res.status(500).json({
     error: 'Something went wrong!',
     message: process.env.NODE_ENV === 'development' ? err.message : 'Internal server error'
   });
