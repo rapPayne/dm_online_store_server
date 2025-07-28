@@ -1,0 +1,558 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "username": "admin",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj5xjQN0xWm6",
+      "email": "admin@store.com",
+      "fullName": "Store Administrator",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user-001",
+      "username": "johndoe",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj5xjQN0xWm6",
+      "email": "john.doe@email.com",
+      "fullName": "John Doe",
+      "role": "user",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "user-002",
+      "username": "janesmith",
+      "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj5xjQN0xWm6",
+      "email": "jane.smith@email.com",
+      "fullName": "Jane Smith",
+      "role": "user",
+      "createdAt": "2024-01-03T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "Premium quality wireless headphones with noise cancellation and 30-hour battery life.",
+      "price": 149.99,
+      "category": "Electronics",
+      "stock": 25,
+      "imageUrl": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-002",
+      "name": "Smartphone Case",
+      "description": "Durable protective case for smartphones with military-grade drop protection.",
+      "price": 24.99,
+      "category": "Accessories",
+      "stock": 50,
+      "imageUrl": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-003",
+      "name": "Fitness Smart Watch",
+      "description": "Advanced fitness tracker with GPS, heart rate monitoring, and water resistance.",
+      "price": 199.99,
+      "category": "Wearables",
+      "stock": 15,
+      "imageUrl": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-004",
+      "name": "Laptop Stand",
+      "description": "Ergonomic aluminum laptop stand with adjustable height and angle.",
+      "price": 49.99,
+      "category": "Accessories",
+      "stock": 30,
+      "imageUrl": "https://images.pexels.com/photos/6980575/pexels-photo-6980575.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-005",
+      "name": "USB-C Hub",
+      "description": "7-in-1 USB-C hub with HDMI, USB ports, and SD card reader.",
+      "price": 69.99,
+      "category": "Electronics",
+      "stock": 40,
+      "imageUrl": "https://images.pexels.com/photos/163125/pexels-photo-163125.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-006",
+      "name": "Mechanical Keyboard",
+      "description": "RGB backlit mechanical keyboard with blue switches and aluminum frame.",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 20,
+      "imageUrl": "https://images.pexels.com/photos/4523023/pexels-photo-4523023.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-007",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with precision sensor and 12-month battery life.",
+      "price": 34.99,
+      "category": "Accessories",
+      "stock": 35,
+      "imageUrl": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-008",
+      "name": "Portable Charger",
+      "description": "10,000mAh portable power bank with fast charging and LED display.",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 45,
+      "imageUrl": "https://images.pexels.com/photos/4968639/pexels-photo-4968639.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-009",
+      "name": "Desk Lamp",
+      "description": "LED desk lamp with adjustable brightness and color temperature.",
+      "price": 59.99,
+      "category": "Home & Office",
+      "stock": 22,
+      "imageUrl": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "prod-010",
+      "name": "Coffee Mug",
+      "description": "Insulated stainless steel coffee mug that keeps drinks hot for 6 hours.",
+      "price": 19.99,
+      "category": "Home & Office",
+      "stock": 60,
+      "imageUrl": "https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-001",
+      "orderNumber": 1001,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "Wireless Bluetooth Headphones",
+          "price": 149.99,
+          "quantity": 1,
+          "subtotal": 149.99
+        }
+      ],
+      "totalAmount": 149.99,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "delivered",
+      "createdAt": "2024-01-05T10:30:00.000Z"
+    },
+    {
+      "id": "order-002",
+      "orderNumber": 1002,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-002",
+          "productName": "Smartphone Case",
+          "price": 24.99,
+          "quantity": 2,
+          "subtotal": 49.98
+        }
+      ],
+      "totalAmount": 49.98,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "shipped",
+      "createdAt": "2024-01-06T14:20:00.000Z"
+    },
+    {
+      "id": "order-003",
+      "orderNumber": 1003,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-003",
+          "productName": "Fitness Smart Watch",
+          "price": 199.99,
+          "quantity": 1,
+          "subtotal": 199.99
+        },
+        {
+          "productId": "prod-008",
+          "productName": "Portable Charger",
+          "price": 29.99,
+          "quantity": 1,
+          "subtotal": 29.99
+        }
+      ],
+      "totalAmount": 229.98,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "processing",
+      "createdAt": "2024-01-07T09:15:00.000Z"
+    },
+    {
+      "id": "order-004",
+      "orderNumber": 1004,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-004",
+          "productName": "Laptop Stand",
+          "price": 49.99,
+          "quantity": 1,
+          "subtotal": 49.99
+        }
+      ],
+      "totalAmount": 49.99,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "pending",
+      "createdAt": "2024-01-08T16:45:00.000Z"
+    },
+    {
+      "id": "order-005",
+      "orderNumber": 1005,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-006",
+          "productName": "Mechanical Keyboard",
+          "price": 89.99,
+          "quantity": 1,
+          "subtotal": 89.99
+        },
+        {
+          "productId": "prod-007",
+          "productName": "Wireless Mouse",
+          "price": 34.99,
+          "quantity": 1,
+          "subtotal": 34.99
+        }
+      ],
+      "totalAmount": 124.98,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "delivered",
+      "createdAt": "2024-01-09T11:30:00.000Z"
+    },
+    {
+      "id": "order-006",
+      "orderNumber": 1006,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-010",
+          "productName": "Coffee Mug",
+          "price": 19.99,
+          "quantity": 3,
+          "subtotal": 59.97
+        }
+      ],
+      "totalAmount": 59.97,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "shipped",
+      "createdAt": "2024-01-10T13:20:00.000Z"
+    },
+    {
+      "id": "order-007",
+      "orderNumber": 1007,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-005",
+          "productName": "USB-C Hub",
+          "price": 69.99,
+          "quantity": 1,
+          "subtotal": 69.99
+        }
+      ],
+      "totalAmount": 69.99,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "processing",
+      "createdAt": "2024-01-11T08:45:00.000Z"
+    },
+    {
+      "id": "order-008",
+      "orderNumber": 1008,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-009",
+          "productName": "Desk Lamp",
+          "price": 59.99,
+          "quantity": 1,
+          "subtotal": 59.99
+        }
+      ],
+      "totalAmount": 59.99,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "pending",
+      "createdAt": "2024-01-12T15:10:00.000Z"
+    },
+    {
+      "id": "order-009",
+      "orderNumber": 1009,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "Wireless Bluetooth Headphones",
+          "price": 149.99,
+          "quantity": 1,
+          "subtotal": 149.99
+        },
+        {
+          "productId": "prod-002",
+          "productName": "Smartphone Case",
+          "price": 24.99,
+          "quantity": 1,
+          "subtotal": 24.99
+        }
+      ],
+      "totalAmount": 174.98,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "shipped",
+      "createdAt": "2024-01-13T12:30:00.000Z"
+    },
+    {
+      "id": "order-010",
+      "orderNumber": 1010,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-003",
+          "productName": "Fitness Smart Watch",
+          "price": 199.99,
+          "quantity": 1,
+          "subtotal": 199.99
+        }
+      ],
+      "totalAmount": 199.99,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "delivered",
+      "createdAt": "2024-01-14T10:15:00.000Z"
+    },
+    {
+      "id": "order-011",
+      "orderNumber": 1011,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-007",
+          "productName": "Wireless Mouse",
+          "price": 34.99,
+          "quantity": 2,
+          "subtotal": 69.98
+        }
+      ],
+      "totalAmount": 69.98,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "processing",
+      "createdAt": "2024-01-15T14:20:00.000Z"
+    },
+    {
+      "id": "order-012",
+      "orderNumber": 1012,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-004",
+          "productName": "Laptop Stand",
+          "price": 49.99,
+          "quantity": 1,
+          "subtotal": 49.99
+        },
+        {
+          "productId": "prod-008",
+          "productName": "Portable Charger",
+          "price": 29.99,
+          "quantity": 2,
+          "subtotal": 59.98
+        }
+      ],
+      "totalAmount": 109.97,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "pending",
+      "createdAt": "2024-01-16T09:40:00.000Z"
+    },
+    {
+      "id": "order-013",
+      "orderNumber": 1013,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-010",
+          "productName": "Coffee Mug",
+          "price": 19.99,
+          "quantity": 1,
+          "subtotal": 19.99
+        }
+      ],
+      "totalAmount": 19.99,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "delivered",
+      "createdAt": "2024-01-17T11:25:00.000Z"
+    },
+    {
+      "id": "order-014",
+      "orderNumber": 1014,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-006",
+          "productName": "Mechanical Keyboard",
+          "price": 89.99,
+          "quantity": 1,
+          "subtotal": 89.99
+        }
+      ],
+      "totalAmount": 89.99,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "shipped",
+      "createdAt": "2024-01-18T16:50:00.000Z"
+    },
+    {
+      "id": "order-015",
+      "orderNumber": 1015,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-005",
+          "productName": "USB-C Hub",
+          "price": 69.99,
+          "quantity": 1,
+          "subtotal": 69.99
+        },
+        {
+          "productId": "prod-009",
+          "productName": "Desk Lamp",
+          "price": 59.99,
+          "quantity": 1,
+          "subtotal": 59.99
+        }
+      ],
+      "totalAmount": 129.98,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "processing",
+      "createdAt": "2024-01-19T13:15:00.000Z"
+    },
+    {
+      "id": "order-016",
+      "orderNumber": 1016,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-001",
+          "productName": "Wireless Bluetooth Headphones",
+          "price": 149.99,
+          "quantity": 1,
+          "subtotal": 149.99
+        }
+      ],
+      "totalAmount": 149.99,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "pending",
+      "createdAt": "2024-01-20T08:30:00.000Z"
+    },
+    {
+      "id": "order-017",
+      "orderNumber": 1017,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-002",
+          "productName": "Smartphone Case",
+          "price": 24.99,
+          "quantity": 1,
+          "subtotal": 24.99
+        },
+        {
+          "productId": "prod-010",
+          "productName": "Coffee Mug",
+          "price": 19.99,
+          "quantity": 2,
+          "subtotal": 39.98
+        }
+      ],
+      "totalAmount": 64.97,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "shipped",
+      "createdAt": "2024-01-21T12:45:00.000Z"
+    },
+    {
+      "id": "order-018",
+      "orderNumber": 1018,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-008",
+          "productName": "Portable Charger",
+          "price": 29.99,
+          "quantity": 1,
+          "subtotal": 29.99
+        }
+      ],
+      "totalAmount": 29.99,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "delivered",
+      "createdAt": "2024-01-22T15:20:00.000Z"
+    },
+    {
+      "id": "order-019",
+      "orderNumber": 1019,
+      "userId": "user-001",
+      "items": [
+        {
+          "productId": "prod-003",
+          "productName": "Fitness Smart Watch",
+          "price": 199.99,
+          "quantity": 1,
+          "subtotal": 199.99
+        },
+        {
+          "productId": "prod-007",
+          "productName": "Wireless Mouse",
+          "price": 34.99,
+          "quantity": 1,
+          "subtotal": 34.99
+        }
+      ],
+      "totalAmount": 234.98,
+      "shippingAddress": "123 Main St, Anytown, USA 12345",
+      "status": "processing",
+      "createdAt": "2024-01-23T10:10:00.000Z"
+    },
+    {
+      "id": "order-020",
+      "orderNumber": 1020,
+      "userId": "user-002",
+      "items": [
+        {
+          "productId": "prod-004",
+          "productName": "Laptop Stand",
+          "price": 49.99,
+          "quantity": 1,
+          "subtotal": 49.99
+        },
+        {
+          "productId": "prod-006",
+          "productName": "Mechanical Keyboard",
+          "price": 89.99,
+          "quantity": 1,
+          "subtotal": 89.99
+        },
+        {
+          "productId": "prod-009",
+          "productName": "Desk Lamp",
+          "price": 59.99,
+          "quantity": 1,
+          "subtotal": 59.99
+        }
+      ],
+      "totalAmount": 199.97,
+      "shippingAddress": "456 Oak Ave, Springfield, USA 67890",
+      "status": "pending",
+      "createdAt": "2024-01-24T14:35:00.000Z"
+    }
+  ]
+}
